@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Full Page Slider</title>
+</head>
+<body>
+  <!-- Slider -->
+  <div class="slider">
+    <div class="slider-container">
+      <!-- See below for the content of this div -->
+      <div class="slide active" style="background-image: url(https://images.unsplash.com/photo-1567274333060-04b18e634717?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1976&q=80);">
+        <div class="info">
+          <h1>Concrete Road</h1>
+          <p>Road near trees at nighttime.</p>
+        </div>
+      </div>
+      <!-- Slide -->
+      <div class="slide" style="background-image: url(https://images.unsplash.com/photo-1530912713654-c9a91294ff7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80);">
+        <div class="info">
+          <h1>Mountain Under Sunset</h1>
+          <p>Sunset photo on the mountain.</p>
+        </div>
+      </div>
+      <!-- Slide -->
+      <div class="slide" style="background-image: url(https://images.unsplash.com/photo-1587997573803-5df279e30716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2063&q=80);">
+        <div class="info">
+          <h1>Trees On Mountain</h1>
+          <p>Mountain under blue skies during daytime.</p>
+        </div>
+      </div>
+      <!-- The rest of the slides -->
+    </div>
+    <!-- Eraser -->
+    <div class="eraser"></div>
+    <!-- FontAwesome icons -->
+    <div class="buttons-container">
+      <button id="previous"><i class="fa fa-arrow-left"></i></button>
+      <button id="next"><i class="fa fa-arrow-right"></i></button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
